@@ -40,7 +40,8 @@ Professor.create!(id: 1, name: "Genaina", email: "genaina@unb.br", username: "ge
 Professor.create!(id: 2, name: "Carla", email: "carla@unb.br", username: "carla", password: "123456", password_confirmation: '123456', role: 1)
 ######################
 
-######################
-# Turma.create([{id:1, turma: "A", professor: "Carla", fk_cod_disciplina: 1}])
-######################
+#####################
+Turma.create([{id:1, turma: "A", professor: "Carla", fk_cod_disciplina: 1, fk_vagas_id: 1}])
+Turma.create([{id:2, turma: "B", professor: "Genaina", fk_cod_disciplina: 1, fk_vagas_id: 1}])
+#####################
 
